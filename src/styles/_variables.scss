@@ -1,0 +1,200 @@
+// gray
+$gray-1: #ffffff;
+$gray-2: #fafafa;
+$gray-3: #f5f5f5;
+$gray-4: #f0f0f0;
+$gray-5: #d9d9d9;
+$gray-6: #bfbfbf;
+$gray-7: #8c8c8c;
+$gray-8: #595959;
+$gray-9: #434343;
+$gray-10: #262626;
+$gray-11: #1f1f1f;
+$gray-12: #141414;
+$gray-13: #000000;
+
+// blue
+$blue-1: #e6f7ff;
+$blue-2: #bae7ff;
+$blue-3: #91d5ff;
+$blue-4: #69c0ff;
+$blue-5: #40a9ff;
+$blue-6: #1890ff;
+$blue-7: #096dd9;
+$blue-8: #0050b3;
+$blue-9: #003a8c;
+$blue-10: #002766;
+
+// green
+$green-1: #f6ffed;
+$green-2: #d9f7be;
+$green-3: #b7eb8f;
+$green-4: #95de64;
+$green-5: #73d13d;
+$green-6: #52c41a;
+$green-7: #389e0d;
+$green-8: #237804;
+$green-9: #135200;
+$green-10: #092b00;
+
+// yellow
+$yellow-1: #feffe6;
+$yellow-2: #ffffb8;
+$yellow-3: #fffb8f;
+$yellow-4: #fff566;
+$yellow-5: #ffec3d;
+$yellow-6: #fadb14;
+$yellow-7: #d4b106;
+$yellow-8: #ad8b00;
+$yellow-9: #876800;
+$yellow-10: #614700;
+
+// orange
+$orange-1: #fff7e6;
+$orange-2: #ffe7ba;
+$orange-3: #ffd591;
+$orange-4: #ffc069;
+$orange-5: #ffa940;
+$orange-6: #fa8c16;
+$orange-7: #d46b08;
+$orange-8: #ad4e00;
+$orange-9: #873800;
+$orange-10: #612500;
+
+// red
+$red-1: #fff1f0;
+$red-2: #ffccc7;
+$red-3: #ffa39e;
+$red-4: #ff7875;
+$red-5: #ff4d4f;
+$red-6: #f5222d;
+$red-7: #cf1322;
+$red-8: #a8071a;
+$red-9: #820014;
+$red-10: #5c0011;
+
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-sans-serif !default;
+
+// 字体大小
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-sm:                $font-size-base * .875 !default;
+$font-size-root:              null !default;
+
+// 字重
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+$font-weight-base:            $font-weight-normal !default;
+
+// 行高
+$line-height-base:            1.5 !default;
+$line-height-lg:              2 !default;
+$line-height-sm:              1.25 !default;
+
+// 标题大小
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+// 链接
+$link-color:                              $gray-12 !default;
+$link-decoration:                         none !default;
+$link-hover-color:                        darken($link-color, 15%) !default;
+$link-hover-decoration:                   underline !default;
+
+// body
+$body-bg:                   $gray-1 !default;
+$body-color:                $gray-12 !default;
+$body-text-align:           null !default;
+
+// Spacing
+$spacer: 1rem !default;
+
+// Paragraphs
+
+$paragraph-margin-bottom:   1rem !default;
+
+// 字体其他部分 heading list hr 等等
+$headings-margin-bottom:      $spacer / 2 !default;
+$headings-font-family:        null !default;
+$headings-font-style:         null !default;
+$headings-font-weight:        500 !default;
+$headings-line-height:        1.2 !default;
+$headings-color:              null !default;
+
+$display1-size:               6rem !default;
+$display2-size:               5.5rem !default;
+$display3-size:               4.5rem !default;
+$display4-size:               3.5rem !default;
+
+$display1-weight:             300 !default;
+$display2-weight:             300 !default;
+$display3-weight:             300 !default;
+$display4-weight:             300 !default;
+$display-line-height:         $headings-line-height !default;
+
+$lead-font-size:              $font-size-base * 1.25 !default;
+$lead-font-weight:            300 !default;
+
+$small-font-size:             .875em !default;
+
+$sub-sup-font-size:           .75em !default;
+
+$text-muted:                  $gray-6 !default;
+
+$initialism-font-size:        $small-font-size !default;
+
+$blockquote-small-color:      $gray-6 !default;
+$blockquote-small-font-size:  $small-font-size !default;
+$blockquote-font-size:        $font-size-base * 1.25 !default;
+
+$hr-color:                    inherit !default;
+$hr-height:                   1px !default;
+$hr-opacity:                  .25 !default;
+
+$legend-margin-bottom:        .5rem !default;
+$legend-font-size:            1.5rem !default;
+$legend-font-weight:          null !default;
+
+$mark-padding:                .2em !default;
+
+$dt-font-weight:              $font-weight-bold !default;
+
+$nested-kbd-font-weight:      $font-weight-bold !default;
+
+$list-inline-padding:         .5rem !default;
+
+$mark-bg:                     #fcf8e3 !default;
+
+$hr-margin-y:                 $spacer !default;
+
+// Code
+$code-font-size:                    $small-font-size !default;
+$code-color:                        $red-5 !default;
+$pre-color:                         null !default;
+
+// options 可配置选项
+$enable-pointer-cursor-for-buttons:           true !default;
+
+// 边框 和 border radius
+
+$border-width:                1px !default;
+$border-color:                $gray-3 !default;
+
+$border-radius:               .25rem !default;
+$border-radius-lg:            .3rem !default;
+$border-radius-sm:            .2rem !default;
+
+// 不同类型的 box shadow
+$box-shadow-sm:               0 .125rem .25rem rgba($gray-12, .075) !default;
+$box-shadow:                  0 .5rem 1rem rgba($gray-12, .15) !default;
+$box-shadow-lg:               0 1rem 3rem rgba($gray-12, .175) !default;
+$box-shadow-inset:            inset 0 1px 2px rgba($gray-12, .075) !default;
